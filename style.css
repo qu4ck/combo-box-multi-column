@@ -1,0 +1,26 @@
+body{background-color:#F5F5F5;height:1000px;}
+#container{width:600px;margin:0 auto;border:1px solid #CCC;}
+.header{background-color:#B1EBF9;padding:8px}
+.header h2{margin:0;font-size:15px;color:#000;text-align:center;}
+.form{height:auto;padding:20px 10px 10px 20px;}
+.form_row{padding:7px 0;}
+label.name{
+	width:150px;line-height:25px;height:25px;float:left;
+	padding-right:15px;color:#000;text-align:right;font-size: 11px;
+}
+input.main_input{
+	border:1px solid #017a67;color: #000;width:300px;
+	height:25px;padding:4px;
+}
+.combo_group{position:relative;width:300px;float:left;}
+.btn_arrow{position:absolute;background:url(images/arrow.jpg) no-repeat; top:1px;right:0;width:19px;height:23px;}
+.show_multicombo{position:absolute;display:none;background-color:#FFF;border:1px solid #017a67;
+width:350px;}
+.show_multicombo table{width:100%;}
+.show_multicombo tr{list-style:none;margin:0;padding:0;font-size:12px;width:100%;}
+.show_multicombo tr:hover{background-color:#F5F5F5;cursor:pointer;}
+
+.combo_header{background-color:#B1EBF9;}
+.clear{clear:both;}
+.float{float: left;margin-right:10px;}
+.button{background: none;border:0;padding-left:5px;}
